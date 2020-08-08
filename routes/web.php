@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+/*controller to store the form details to model */
+Route::post('create','BuyMakeProductController@create');
